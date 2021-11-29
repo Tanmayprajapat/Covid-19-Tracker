@@ -1,6 +1,7 @@
 .infoBox{
     flex: 1;
     cursor: pointer;
+    padding-left: 1vw;
 }
 .infoBox:not(:last-child){
     margin-right: 15px;
@@ -13,9 +14,10 @@
 }
 .InfoBox__cases{
     color:#cc1034;
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 0.5rem;
+    font-weight: 600 !important;
+    margin-bottom: 0.5vh;
+    font-size: 3.5vh !important;
+    
 }
 .infoBox--red{
     border-top: 10px solid red;
@@ -23,14 +25,13 @@
 .InfoBox__total{
     color:#6c757d;
     font-weight: 700 !important;
-    /* font-size: 1.8rem !important;
-    margin-top: 15px !important; */
+     font-size: 2.3vh !important;
 }
 .InfoBox__title{
     color:black;
-    
+    margin-bottom: .5vh;
     font-weight: bold !important;
-    font-size: 1.3rem;
+    font-size: 2.5vh !important;
 }   
 @media (max-width:500px) {
     .infoBox{

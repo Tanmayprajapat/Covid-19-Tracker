@@ -1,26 +1,42 @@
 *{
+  
   margin: 0;
 }
 body{
-  background-color:rgb(223, 228, 236) ;
+  height: 100%;
+  /* overflow: hidden; */
+  background-color: rgb(200, 223, 238) ;
+  min-height: 650px;
 }
 .app{
   display: flex;
+  height: 100%;
   justify-content: space-evenly;
-  padding: 20px;
-  padding-bottom: 0;
+  padding: 3vh;
 }
 .app__left{
+  height: 94vh;
   flex:0.9;
+  
+}
+.app__right{
+  /* height: calc(100vh - 20px); */
+  height: 94vh;
+
 }
 .app__header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
+  height: 6vh;
+}
+.title{
+  font-weight: 700 !important;
+  font-size: 3.5vh !important;
 }
 .app__header h2{
-  color: red;
+  color: rgb(12, 10, 10);
   
 }
 .app__dropdown{
@@ -29,6 +45,7 @@ body{
 .app__stats{
   display: flex;
   justify-content: space-between;
+  height: 20vh;
 }
 @media (max-width:835px) {
   .app{

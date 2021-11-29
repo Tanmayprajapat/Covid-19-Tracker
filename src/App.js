@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react'
-import {  FormControl, MenuItem, Select,Card,CardContent } from "@material-ui/core"
+import {  FormControl, MenuItem, Select,Card,CardContent, Typography } from "@material-ui/core"
 import InfoBox from './components/InfoBox'
 import Map from './components/Map'
 import Table from './components/Table';
@@ -62,7 +62,7 @@ function App() {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-          <h2>COVID-19 TRACKER</h2>
+          <Typography className="title">COVID-19 TRACKER</Typography>
           <FormControl className="app__dropdown">
             <Select variant="outlined" onChange={onCountryChange} value={country}>
               <MenuItem value="worldwide">Worldwide </MenuItem>
