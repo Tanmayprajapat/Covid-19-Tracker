@@ -59,6 +59,7 @@ body{
 @media (max-width:500px) {
   .app__stats{
     flex-direction: column;
+    height: 60vh !important;
   }
 }
   
